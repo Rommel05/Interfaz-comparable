@@ -24,7 +24,7 @@ public class Felipe {
         int tiempo = sc.nextInt();
         System.out.println("Pon la prioridad");
         int prioridad = sc.nextInt();
-        Tares tarea = new Tares(tiempo,prioridad);
+        Tares tarea = new Tares(prioridad,tiempo);
         tareas.add(tarea);
     }
 }
