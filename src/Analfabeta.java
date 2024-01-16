@@ -15,11 +15,12 @@ public class Analfabeta {
         reader.readLine();
         while ((linea = reader.readLine()) != null) {
             String[] cadena = linea.split(",");
-            pais = cadena[3]; //5
-            cantidad = Integer.parseInt(cadena[6]); //8
+            pais = cadena[5];
+            cantidad = Integer.parseInt(cadena[8]);
             Member persona = new Member(pais,cantidad);
             personas.add(persona);
         }
+        personas.stream().sorted().forEach(System.out::println);
 
     }
 }
