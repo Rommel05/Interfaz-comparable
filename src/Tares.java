@@ -15,7 +15,7 @@ public class Tares implements Comparable<Tares>{
     }
     @Override
     public String toString() {
-        return tiempo + "," + prioridad;
+        return prioridad + "," + tiempo;
     }
     @Override
     public int compareTo(Tares other) {
