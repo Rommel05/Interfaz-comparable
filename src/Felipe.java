@@ -16,7 +16,7 @@ public class Felipe {
              break;
          }
      }
-        tareas.stream().sorted().forEach(p -> System.out.println(p));
+        tareas.stream().sorted().forEach(System.out::println);
     }
     public static void añadirTareas (ArrayList<Tares> tareas) {
         Scanner sc = new Scanner(System.in);

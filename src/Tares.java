@@ -15,7 +15,7 @@ public class Tares implements Comparable<Tares>{
     }
     @Override
     public String toString() {
-        return prioridad + "," + tiempo;
+        return this.getPrioridad() + "," + this.getTiempo();
     }
     @Override
     public int compareTo(Tares other) {
